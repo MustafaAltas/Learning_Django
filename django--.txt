@@ -11,3 +11,10 @@
 #python manage.py makemigrations ile table oluşturulır
 #python manage.py migrate database'e sign işlemi
 #python manage.py createsuperuser admin girişi için önce register işlemi yapılıyor.
+#pip freeze > icindekiler.txt ile yüklenen paketler yüklenir txt dosyasına
+# pip install -r icindekiler.txt ile de indirilen projede oluşturulan txt dosyanın içindeki paketler install edilir.
+
+
+ORM
+# python manage.py shell ile terminalde sorgu yapılır. (>>>) ibaresi gelmesi lazım
+#exit() ile shell'de n çıkılıyor.
