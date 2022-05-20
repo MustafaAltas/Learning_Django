@@ -1,0 +1,29 @@
+{% load static %}
+<head>
+    <link rel="stylesheet" href="{% static 'app/style.css' %}">
+</head>
+{{ request.user }} <br/>
+
+{{ title | upper}}
+
+<br/>
+
+{{dict1.django | title}}
+
+<br/>
+
+{% for i in my_list %}
+    <li>{{i}}</li>
+{% endfor %}
+{# bu bir yorum satırıdır#}
+{% comment  %}
+burası
+bir 
+çoklu 
+yorum
+satırıdır
+{% endcomment %}
+
+<img src="{% static 'app/foto.jpg' %}" width="300" alt="Example">
+
+
