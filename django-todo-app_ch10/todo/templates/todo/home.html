@@ -1,0 +1,16 @@
+{% extends 'todo/base.html' %} 
+
+
+{% block content %}
+
+<h2>
+    <center>
+        Welcome To TODO App <br> (Backend Team)
+        <hr>
+        <a href="{% url 'add' %}">Add</a>
+        <a href="{% url 'list' %}">List</a>
+    </center>
+
+</h2>
+
+{% endblock content %}

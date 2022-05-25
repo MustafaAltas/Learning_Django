@@ -1,0 +1,10 @@
+{% extends 'todo/base.html' %} {% block content %}
+
+<h2>To Do Update</h2>
+
+<form action="" method="POST">
+  {% csrf_token %} {{form.as_p}}
+  <input type="submit" value="Update" />
+</form>
+<a href="{% url 'delete' todo.id %}">delete</a>
+{% endblock content %}
